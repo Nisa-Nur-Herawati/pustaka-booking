@@ -5,6 +5,7 @@
         <title>Form Input Data Mata Kuliah</title>
     </head>
     <body>
+
         <center>
             <form action="<?= base_url('matakuliah/cetak'); ?>" method="post">
                 <table>
@@ -22,15 +23,17 @@
                         <th>Kode MTK</th>
                         <th>:</th>
                         <td>
-                            <input type="text" name="kode" id="kode" placeholder="Required">
+                            <input type="text" name="kode" id="kode"  value="<?php echo set_value('kode'); ?>" placeholder="Required">
                     </td>
+                    <td><?php echo form_error('kode'); ?></td>
                     </tr>
                     <tr>
                         <th>Nama MTK</th>
                         <th>:</th>
                         <td>
-                         <input type="type" name="nama" id="nama">
+                         <input type="type" name="nama" id="nama"  value="<?php echo set_value('nama'); ?>" placeholder="Required">
                         </td>
+                        <td><?php echo form_error('nama'); ?></td>
                      </tr>
                     <tr>
                         <th>SKS</th>
@@ -43,6 +46,7 @@
                                 <option value="4">4</option>
                             </select>
                         </td>
+                        <td><?php echo form_error('sks'); ?></td>
                      </tr>
                     <tr>
                          <td colspan="3" align="center">
