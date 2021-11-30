@@ -4,8 +4,7 @@
  <div class="copyright text-center my-auto">
  <span>Copyright &copy; Web Programming Univ. BSI with 
 Bootstrap SB Admin 2 <?= date('Y'); ?></span>
- </div>
-87
+</div>
  </div>
 </footer>
 <!-- End of Footer -->

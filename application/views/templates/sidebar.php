@@ -1,5 +1,5 @@
 <!-- Sidebar -->
-<ul class="navbar-nav bg-gradient-primary sidebar sidebardark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
  <!-- Sidebar - Brand -->
  <a class="sidebar-brand d-flex align-items-center 
 justify-content-center" href="index.html">
@@ -18,9 +18,16 @@ justify-content-center" href="index.html">
  Master Data
  </div>
  <!-- Nav Item - Dashboard -->
- <li class="nav-item active">
+ <li class="nav-item">
+ <style media="screen">
+ </style>
+ <a class="nav-link pb-0" href="<?= base_url('Buku/kategori'); ?>">
+ <i class="fas fa-book-open"></i>
+ <span>Kategori Buku</span></a>
+ </li>
  <!-- Nav Item - Dashboard -->
  <li class="nav-item">
+     <style media="screen"></style>
  <a class="nav-link pb-0" href="<?=
 base_url('buku'); ?>">
  <i class="fa fa-fw fa book"></i>
