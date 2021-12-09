@@ -57,7 +57,7 @@ id="kategoriBaruModalLabel">Tambah Kategori</h5>
 method="post">
  <div class="modal-body">
  <div class="form-group">
- <input type="text" name="kategori" id="kategori" placeholder="Masukkan Nama Kategori" class="form-control form-control-user"
+ <input type="text" name="kategori" id="kategori" placeholder="Masukkan Nama Kategori" class="form-control form-control-user">
  <select name="kategori" class="form-control 
 form-control-user">
  </select>
